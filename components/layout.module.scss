@@ -1,0 +1,25 @@
+.container {
+  max-width: 36rem;
+  padding: 0 1rem;
+  margin: 3rem auto 6rem;
+
+  :global {
+    .header {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    // main {
+    //   border: 1px solid black;
+
+    //   &.highlight {
+    //    background: grey;
+    //   }
+    // }
+
+    .backToHome {
+      margin: 3rem 0 0;
+    }
+  }
+}
